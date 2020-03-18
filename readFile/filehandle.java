@@ -8,6 +8,7 @@ public class filehandle {
 	public static void main(String[] args) {
 		
 		try {
+			System.out.println("Hello World");
 			
 			File file = new File("data.txt");
 			FileWriter write = new FileWriter("data.txt");
